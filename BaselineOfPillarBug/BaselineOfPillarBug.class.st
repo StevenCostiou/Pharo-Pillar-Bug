@@ -28,10 +28,7 @@ BaselineOfPillarBug >> baseline: spec [
 		spec package: 'Magritte-model-actions'.
 		
 		
-		spec package: 'PetitParser-Core'.
-		spec package: 'PetitParser-Parsers'.
-		spec package: 'PetitParser-Tools'.
-		
+		spec package: 'PetitParser'.
 		
 		spec package: 'Cocoon-Core'.
 		spec package: 'Cocoon-Core-Configuration'.
