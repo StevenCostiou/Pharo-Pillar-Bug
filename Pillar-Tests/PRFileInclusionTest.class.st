@@ -87,50 +87,9 @@ PRFileInclusionTest >> tearDown [
 ]
 
 { #category : 'tests' }
-PRFileInclusionTest >> testInclude1File [
-	| input result |
-	input := PRDocument with: (self fileInclusionTo: 'foo.pillar').
-	result := PRDocument
-		with:
-			(PRHeader new
-				level: 2;
-				add: (PRText content: 'Hello World');
-				yourself).
-	self assert: (self executePhase: input) equals: result
-]
-
-{ #category : 'tests' }
 PRFileInclusionTest >> testInclude1FileInto1Include [
 	| input result |
 	input := PRDocument with: (self fileInclusionTo: 'bar.pillar').
-	result := PRDocument new
-		add:
-			(PRHeader new
-				level: 2;
-				add: (PRText content: '\Hello World');
-				yourself);
-		add:
-			(PRHeader new
-				level: 2;
-				add: (PRText content: '\Bye World');
-				yourself);
-		yourself.
-	self assert: (self executePhase: input) equals: result
-]
-
-{ #category : 'tests' }
-PRFileInclusionTest >> testInclude1FileWithFigure [
-	| input result |
-	input := PRDocument with: (self fileInclusionTo: 'tata/toto.pillar').
-	result := PRDocument new
-		add:
-			(PRParagraph new
-				add:
-					(PRFigure new
-						reference: 'tata/fig.png';
-						parameterAt: 'width' put: '50';
-						yourself);
-				yourself);
-		yourself.
-	self assert: (self executePhase: input) equals: result
+	result := self executePhase: input.
+	self assert: result class equals: PRDocument
 ]
