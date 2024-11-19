@@ -46,9 +46,9 @@ BaselineOfPillarBug >> baseline: spec [
 		spec package: 'Pillar-ExporterCore'.
 		spec package: 'Pillar-ExporterCore-Configuration'.
 		spec package: 'Pillar-ExporterMarkdown'.
+		spec package: 'Pillar-ExporterHTML'.
 		spec package: 'Pillar-ExporterEPub'.
 		spec package: 'Pillar-exportertext'.
-		spec package: 'Pillar-ExporterHTML'.
 		spec package: 'Pillar-ExporterAsciiDoc'.
 		spec package: 'Pillar-ExporterLaTeX'.
 		spec package: 'Pillar-ExporterBeamer'.
