@@ -1,0 +1,15 @@
+"
+I am an abstract list. My children are instances of *PRListItem*.
+"
+Class {
+	#name : 'PRList',
+	#superclass : 'PRDocumentGroup',
+	#category : 'Pillar-Model-Document',
+	#package : 'Pillar-Model-Document'
+}
+
+{ #category : 'visiting' }
+PRList >> accept: aVisitor [
+	<ignoreForCoverage "This method is ignored for test coverage because it is overriden in all subclasses and these subclasses don't need to do a super-send.">
+	aVisitor visitList: self
+]
