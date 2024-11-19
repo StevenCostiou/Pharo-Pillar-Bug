@@ -9,6 +9,8 @@ Class {
 BaselineOfPillarBug >> baseline: spec [
 	<baseline>
 	spec for: #common do: [
+		spec package: 'LightPhaser-Model'.
+		
 		spec package: 'Magritte-Model-Core'.
 		spec package: 'Magritte-Model-Description'.
 		spec package: 'Magritte-Model-Models'.
