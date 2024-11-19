@@ -14,8 +14,8 @@ Class {
 		'literal',
 		'message'
 	],
-	#category : 'PetitParser-Parsers',
-	#package : 'PetitParser-Parsers'
+	#category : 'PetitParser-Core',
+	#package : 'PetitParser-Core'
 }
 
 { #category : 'instance creation' }
