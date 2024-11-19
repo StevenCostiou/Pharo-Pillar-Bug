@@ -7,7 +7,7 @@ Class {
 
 { #category : 'baselines' }
 BaselineOfPillarBug >> baseline: spec [
-
+	<baseline>
 	spec for: #common do: [
 		spec package: 'Magritte-model-converting'.
 		spec package: 'Magritte-morph'.
