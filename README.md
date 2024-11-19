@@ -34,3 +34,4 @@ The problem can be reproduced automatically through the following script, in whi
 ```Smalltalk
 PRFileInclusionTest new setUp; testInclude1FileInto1Include
 ```
+## Credits
