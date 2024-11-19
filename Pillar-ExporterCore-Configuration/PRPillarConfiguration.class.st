@@ -4,6 +4,9 @@ I manage pillar specific configuration.
 Class {
 	#name : 'PRPillarConfiguration',
 	#superclass : 'CCConfiguration',
+	#instVars : [
+		'disabledPhases'
+	],
 	#classVars : [
 		'HeaderConfigurations'
 	],
@@ -297,6 +300,18 @@ PRPillarConfiguration >> descriptionVerbose [
 		cocoonDocumentation: 'Indicate whether Pillar should write a verbose log when exporting.';
 		default: false;
 		yourself
+]
+
+{ #category : 'accessing' }
+PRPillarConfiguration >> disabledPhases [
+
+	^ disabledPhases ifNil:[disabledPhases := OrderedCollection new]
+]
+
+{ #category : 'accessing' }
+PRPillarConfiguration >> disabledPhases: anObject [
+
+	disabledPhases := anObject
 ]
 
 { #category : 'actions' }
