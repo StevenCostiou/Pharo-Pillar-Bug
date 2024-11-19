@@ -4,6 +4,6 @@ Class {
 	#classVars : [
 		'HeaderConfigurations'
 	],
-	#category : 'PillarBug-Reproduction',
-	#package : 'PillarBug-Reproduction'
+	#category : 'Magritte-Model-Core',
+	#package : 'Magritte-Model-Core'
 }
