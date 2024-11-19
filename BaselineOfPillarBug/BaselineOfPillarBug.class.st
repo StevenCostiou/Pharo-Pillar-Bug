@@ -27,8 +27,9 @@ BaselineOfPillarBug >> baseline: spec [
 		
 		
 		spec package: 'PetitParser-Core'.
-		spec package: 'PetitParser-Tools'.
 		spec package: 'PetitParser-Parsers'.
+		spec package: 'PetitParser-Tools'.
+		
 		
 		spec package: 'Cocoon-Core'.
 		spec package: 'Cocoon-Core-Configuration'.
