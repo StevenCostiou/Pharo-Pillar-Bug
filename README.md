@@ -35,3 +35,11 @@ The problem can be reproduced automatically through the following script, in whi
 PRFileInclusionTest new setUp; testInclude1FileInto1Include
 ```
 ## Credits
+
+The code used in this repository comes from various [SmalltalkHub archived repositories](http://smalltalkhub.com/) , that do not load into recent Pharo images (>13):
+
+- **Grease**: http://smalltalkhub.com/BenoitAstruc/Grease/
+- **Magritte**: http://smalltalkhub.com/Magritte/Magritte2/
+- **Cocoon**: http://smalltalkhub.com/PharoExtras/Cocoon/
+- **LightPhaser**: http://smalltalkhub.com/Pier/LightPhaser/
+- **Pillar**: http://smalltalkhub.com/Pier/Pillar/
