@@ -1,3 +1,10 @@
+## The Pillar bug
+Pillar is markup language to generate books.
+The bug reproduced in this repository was really hard to understand for the Pillar developers.
+It was originally described here https://github.com/guillep/pillar-bug, and was then studied in some papers.
+
+This repository provides code to reproduce the original bug in the following Pharo versions:
+- Pharo 13 (Nov 20th, 2024)
 
 ## Installation
 
