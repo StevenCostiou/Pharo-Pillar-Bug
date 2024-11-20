@@ -49,4 +49,5 @@ The code used in this repository comes from various [SmalltalkHub archived repos
 - **Magritte**: http://smalltalkhub.com/Magritte/Magritte2/
 - **Cocoon**: http://smalltalkhub.com/PharoExtras/Cocoon/
 - **LightPhaser**: http://smalltalkhub.com/Pier/LightPhaser/
+- **PetitParser**: http://smalltalkhub.com/JanKurs/PetitParser/
 - **Pillar**: http://smalltalkhub.com/Pier/Pillar/
